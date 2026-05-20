@@ -1,19 +1,83 @@
 /* eslint-disable quote-props */
 /* eslint-disable max-len */
+/**
+ * Translation file for this resouce.
+ *
+ * IMPORTANT:
+ * - The "en" (English) section is automatically generated from source files.
+ *   Do NOT modify the "en" section manually.
+ * - Other language sections (e.g., "zh-cn", "zh-tw", "ja", etc.) should be
+ *   manually translated by you.
+ * - When you run the extraction script again, only the "en" section will be
+ *   updated. Your manual translations in other languages will be preserved.
+ *
+ * Structure:
+ * - interface: translations for name/description (used by GUI formatMessage)
+ * - extensions: translations for extension blocks (used by VM formatMessage)
+ * - blocks: translations for Blockly blocks (used by Blockly.Msg)
+ */
 
 export default {
     'interface': {
         'en': {
-            'arduinoMega2560.description': 'The 8-bit board with 54 digital pins, 16 analog inputs, and 4 serial ports.'
+            'arduinoMega2560.description': 'The 8-bit board with 54 digital pins, 16 analog inputs, and 4 serial ports.',
+            'arduinoMega2560.examples.blink.name': 'Blink',
+            'arduinoMega2560.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoMega2560.examples.button.name': 'Button',
+            'arduinoMega2560.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoMega2560.examples.fade.name': 'Fade',
+            'arduinoMega2560.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoMega2560.examples.knob.name': 'Knob',
+            'arduinoMega2560.examples.knob.description': 'Control LED brightness with a potentiometer.',
+            'arduinoMega2560.examples.servoSweep.name': 'Servo Sweep',
+            'arduinoMega2560.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoMega2560.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoMega2560.examples.serialMonitor.description': 'Print analog readings to the Serial Monitor every half second.'
         },
         'ru': {
-            'arduinoMega2560.description': '8-битная плата с 54 цифровыми, 16 аналоговыми и 4 последовательными портами.'
+            'arduinoMega2560.description': '8-битная плата с 54 цифровыми, 16 аналоговыми и 4 последовательными портами.',
+            'arduinoMega2560.examples.blink.name': 'Мигание',
+            'arduinoMega2560.examples.blink.description': 'Заставьте встроенный светодиод мигать.',
+            'arduinoMega2560.examples.button.name': 'Кнопка',
+            'arduinoMega2560.examples.button.description': 'Зажигайте светодиод, пока нажата кнопка.',
+            'arduinoMega2560.examples.fade.name': 'Плавное затухание',
+            'arduinoMega2560.examples.fade.description': 'Плавное затухание светодиода с помощью ШИМ.',
+            'arduinoMega2560.examples.knob.name': 'Регулятор',
+            'arduinoMega2560.examples.knob.description': 'Регулировка яркости светодиода с помощью потенциометра.',
+            'arduinoMega2560.examples.servoSweep.name': 'Развертка серво',
+            'arduinoMega2560.examples.servoSweep.description': 'Поворот серво вперед и назад между 0° и 180°.',
+            'arduinoMega2560.examples.serialMonitor.name': 'Монитор порта',
+            'arduinoMega2560.examples.serialMonitor.description': 'Печать аналоговых показаний в монитор порта каждые полсекунды.'
         },
         'zh-cn': {
-            'arduinoMega2560.description': '拥有54个数字引脚，16个模拟输入和4个串口的8位控制板。'
+            'arduinoMega2560.description': '拥有54个数字引脚，16个模拟输入和4个串口的8位控制板。',
+            'arduinoMega2560.examples.blink.name': '闪烁',
+            'arduinoMega2560.examples.blink.description': '让板载 LED 闪烁。',
+            'arduinoMega2560.examples.button.name': '按键',
+            'arduinoMega2560.examples.button.description': '按住按键时点亮 LED。',
+            'arduinoMega2560.examples.fade.name': '呼吸灯',
+            'arduinoMega2560.examples.fade.description': '用 PWM 让 LED 缓缓变亮再渐渐变暗。',
+            'arduinoMega2560.examples.knob.name': '电位器调光',
+            'arduinoMega2560.examples.knob.description': '用电位器调节 LED 的亮度。',
+            'arduinoMega2560.examples.servoSweep.name': '舵机来回扫描',
+            'arduinoMega2560.examples.servoSweep.description': '让舵机在 0° 到 180° 之间来回转动。',
+            'arduinoMega2560.examples.serialMonitor.name': '串口监视器',
+            'arduinoMega2560.examples.serialMonitor.description': '每半秒把模拟引脚的数值打印到串口监视器上。'
         },
         'zh-tw': {
-            'arduinoMega2560.description': '擁有54個數位引腳，16個類比輸入和4個串口的8位控制板。'
+            'arduinoMega2560.description': '擁有54個數位引腳，16個類比輸入和4個串口的8位控制板。',
+            'arduinoMega2560.examples.blink.name': '閃爍',
+            'arduinoMega2560.examples.blink.description': '讓板載 LED 閃爍。',
+            'arduinoMega2560.examples.button.name': '按鍵',
+            'arduinoMega2560.examples.button.description': '按住按鍵時點亮 LED。',
+            'arduinoMega2560.examples.fade.name': '呼吸燈',
+            'arduinoMega2560.examples.fade.description': '用 PWM 讓 LED 緩緩變亮再漸漸變暗。',
+            'arduinoMega2560.examples.knob.name': '電位器調光',
+            'arduinoMega2560.examples.knob.description': '用電位器調節 LED 的亮度。',
+            'arduinoMega2560.examples.servoSweep.name': '舵機來回掃描',
+            'arduinoMega2560.examples.servoSweep.description': '讓舵機在 0° 到 180° 之間來回轉動。',
+            'arduinoMega2560.examples.serialMonitor.name': '串口監視器',
+            'arduinoMega2560.examples.serialMonitor.description': '每半秒把類比引腳的數值印出到串口監視器上。'
         }
     },
     'extensions': {
